@@ -162,6 +162,18 @@ img{
     justify-content: center; 
     align-items: center;
 }
+
+#tab-2-content .tab-2-content-bottom{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}  
+
+
 /* container */
 .container{
     max-width: 70%;
@@ -169,6 +181,8 @@ img{
     overflow: hidden;
     padding: 0 2rem;
 }
+
+/* text */
 
 .text-xl{
     font-size: 2rem;
@@ -180,9 +194,13 @@ img{
 .text-dark{
     color: #999;
 }
+.text-md{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
 
 .text-lg{
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
 }
 
